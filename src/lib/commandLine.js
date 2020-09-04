@@ -2,7 +2,7 @@ import yargs from 'yargs';
 
 const params = {
   englishOnly: false,
-  threshold: 100,
+  threshold: 10,
   minLength: 3,
   maxLength: Infinity,
 };
