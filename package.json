@@ -1,0 +1,21 @@
+{
+  "name": "string-analyzer",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-json-modules . "
+  },
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.21.2"
+  },
+  "dependencies": {
+    "an-array-of-english-words": "^2.0.0",
+    "chalk": "^4.1.0",
+    "lodash": "^4.17.20",
+    "yargs": "^15.4.1"
+  }
+}
