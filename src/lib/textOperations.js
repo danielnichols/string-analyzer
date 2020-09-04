@@ -2,8 +2,6 @@ import Lodash from 'lodash';
 import EnglishWords from 'an-array-of-english-words';
 import { enumerateSubstrings } from './stringOperations.js';
 
-// const EnglishWords = require('an-array-of-english-words');
-
 const {
   words, omitBy, orderBy,
 } = Lodash;
@@ -20,7 +18,6 @@ const countSubstrings = (text, threshold = 1, minLength = 0, maxLength = Infinit
       if (rawIndex[substring] === undefined) {
         rawIndex[substring] = 1;
       } else {
-        // index[substring] = index[substring] + 1;
         rawIndex[substring]++;
       }
     });
@@ -47,7 +44,6 @@ const countSubstrings = (text, threshold = 1, minLength = 0, maxLength = Infinit
  * @param {string} field
  */
 const sortIndex = (index = [], order = 'desc', field = 'count') => {
-  // const sortedIndex = orderBy(index,['count', 'string'], ['desc', 'asc']);
   const sortedIndex = orderBy(index, [field], [order]);
   return sortedIndex;
 };
