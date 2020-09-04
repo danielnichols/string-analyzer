@@ -89,3 +89,7 @@ typings/
 
 # Workspace
 .vscode/
+
+# Input/output files
+input.txt
+output.txt
