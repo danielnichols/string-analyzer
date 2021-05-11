@@ -15,7 +15,7 @@
   "dependencies": {
     "an-array-of-english-words": "^2.0.0",
     "chalk": "^4.1.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "yargs": "^15.4.1"
   }
 }
